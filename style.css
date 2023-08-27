@@ -18,29 +18,33 @@
 }
 .caculator form input{
     border: 0;
-    padding: 0;
+    outline: 0;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: -8px -8px 15px rgba(154, 154, 154, 0.1),5px 5px 15px rgba(7, 0, 0, 0.2);
     background: transparent;
     font-size: 20px;
     color: #fff;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 10px;
 }
-form .caculator{
+form .display{
     display: flex;
     justify-content: flex-end;
+    margin: 20px 0;
 }
 form .display input{
-    justify-content: flex-end;
-    text-align: left;
-    flex: 2;
+    text-align: right;
+    flex: 1;
     font-size: 45px;
-    box-shadow: none;
-    width: 300px;
+    background: #fff;
+    color: black;
+    
 }
 form input.equal{
     width: 145px;
+}
+form input.operate{
+    color: #33ffd8;
 }
